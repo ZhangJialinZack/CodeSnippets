@@ -3,22 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>pw</string>
+	<string>setImageForButton</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, weak)&lt;#typr#&gt; *&lt;#name#&gt;;</string>
+	<string>[&lt;#button#&gt; setImage:&lt;#image#&gt; forState:UIControlStateNormal];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C90AC1EA-E918-462E-B912-1299EC3E4A61</string>
+	<string>EC69F79A-C822-4381-ACE7-82BA4ED97D27</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property Weak</string>
+	<string>set UIButton Image</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

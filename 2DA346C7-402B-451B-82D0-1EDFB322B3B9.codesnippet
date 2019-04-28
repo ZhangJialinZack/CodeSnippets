@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>newbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIButton *)&lt;#buttonName#&gt;
+{
+    if (!theButton) {
+        theButton = [[UIButton alloc] init];
+        [theButton setTitle:@"" forState:UIControlStateNormal];
+        theButton.titleLabel.font = [UIFont snb_font:SNBFontTypeRegular size:14.f];
+        [theButton setTitleColor:[UIColor snb_colorFromHexString:@""] forState:UIControlStateNormal];
+
+        theButton.layer.cornerRadius = 0.f;
+        theButton.layer.masksToBounds = YES;
+        theButton.layer.borderWidth = 0.f;
+        theButton.layer.borderColor = [UIColor snb_themeColor:SNB_BLK_LV5_COL].CGColor;
+        
+        @weakify(self);
+        [[theButton rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
+            @strongify_return_if_nil(self);
+            
+        }];
+    }
+    return theButton;
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>2DA346C7-402B-451B-82D0-1EDFB322B3B9</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>New Button Template</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
