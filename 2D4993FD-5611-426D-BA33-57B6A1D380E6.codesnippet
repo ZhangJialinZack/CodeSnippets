@@ -3,27 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>newuiimageview</string>
+	<string></string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (UIImageView *)&lt;#imageViewName#&gt;
-{
-    if (!theImageView) {
-        theImageView = [[UIImageView alloc] init];
-        theImageView.userInteractionEnabled = NO;
-        theImageView.image = [UIImage imageNamed:@""];
-    }
-    return theImageView;
-}</string>
+	<string>sharedManager</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE488E56-A631-4235-862C-32AC723C3044</string>
+	<string>2D4993FD-5611-426D-BA33-57B6A1D380E6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>New UIImageView Template</string>
+	<string>My Code Snippet</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

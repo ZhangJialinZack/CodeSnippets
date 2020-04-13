@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>ifos</string>
+	<string>pragmaprivate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (@available(iOS &lt;#12.0#&gt;, *)) {
-    &lt;#statements#&gt;
-}</string>
+	<string>#pragma mark - Private Method</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>EABDAB9C-966F-4442-B386-DFBAC52FF6D9</string>
+	<string>EF326C6F-9FA3-4981-8279-7460E31B9F73</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>@available iOS</string>
+	<string>Pragma Private Method</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
